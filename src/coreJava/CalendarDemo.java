@@ -19,6 +19,9 @@ public class CalendarDemo {
 		System.out.println(cl.get(Calendar.AM));
 		System.out.println(cl.get(Calendar.AM_PM));
 		System.out.println(cl.get(Calendar.MARCH));
+		System.out.println(cl.get(Calendar.JANUARY));
+		System.out.println(cl.get(Calendar.FEBRUARY));
+		System.out.println(cl);
 
 	}
 
