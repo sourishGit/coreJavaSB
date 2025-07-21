@@ -4,7 +4,14 @@ public class StaticVar {
 	
 	String name;
 	String address;
-	static String city = "Kolkata";
+	static int i;
+	static String city;
+	
+	static
+	{
+		city = "Kolkata";
+		i=0;
+	}
 	
 	StaticVar(String name, String address)
 	{
