@@ -18,6 +18,10 @@ public class ArrayListDemo {
 		System.out.println(al);
 		al.remove("Modu");
 		System.out.println(al);
+		System.out.println(al.get(1));
+		System.out.println(al.isEmpty());
+		System.out.println(al.indexOf("Sourish"));
+		System.out.println(al.size());
 	}
 
 }
